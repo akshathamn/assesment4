@@ -1,0 +1,32 @@
+#center
+{
+    text-align: center;
+    background-color: #9e9e9e5c;
+    padding: 224px 188px;
+   
+}
+.height
+{
+    height: 47px;
+    width: 300px;
+}
+.login
+{
+    border-radius: 10px 10px;
+    background-color: #1952a7;
+    color: white;
+    margin-left: -3%;
+    height: 35px;
+    width: 90px;
+
+}
+.register
+{
+margin-left: 10%;
+color: #1952a7;
+}
+.left
+{
+    margin-right: 20%;
+    font-weight: bold;
+}
