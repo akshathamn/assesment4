@@ -26,9 +26,9 @@ const EditForm = props => {
       }}
     >
       <label >Name</label><br/>
-      <input className="col-lg-6 col-xs-6 col-sm-6 col-md-6 length" type="text" name="name" value={user.name} onChange={handleInputChange} /><br/>
+      <input className=" length" type="text" name="name" value={user.name} onChange={handleInputChange} /><br/>
       <label>Username</label><br/>
-      <input className="col-lg-6 col-xs-6 col-sm-6 col-md-6 length" type="text" name="username" value={user.username} onChange={handleInputChange} /><br/><br/>
+      <input className=" length" type="text" name="username" value={user.username} onChange={handleInputChange} /><br/><br/>
       <button class="btn btn-success">Update user</button>
       <button class="btn btn-primary" onClick={() => props.setEditing(false)} >
         Cancel
