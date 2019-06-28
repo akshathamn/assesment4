@@ -1,8 +1,9 @@
-#center
+.center
 {
     text-align: center;
     background-color: #9e9e9e5c;
     padding: 224px 188px;
+    /* background-color: #c9e0ff; */
    
 }
 .height
@@ -15,18 +16,24 @@
     border-radius: 10px 10px;
     background-color: #1952a7;
     color: white;
-    margin-left: -3%;
+    margin-left: -60%;
     height: 35px;
     width: 90px;
 
 }
 .register
 {
-margin-left: 10%;
+margin-left: 5%;
 color: #1952a7;
+margin-top: -8%;
 }
 .left
 {
-    margin-right: 20%;
+    margin-right: 61%;
     font-weight: bold;
 }
+
+
+
+
+  
