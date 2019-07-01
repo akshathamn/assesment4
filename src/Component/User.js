@@ -6,11 +6,7 @@ import './User.css';
 
 
 const User = () => {
-  const usersData = [
-    { id: 1, name: 'Navneeta', username: 'floppy' },
-    { id: 2, name: 'Ram', username: 'silicon' },
-    { id: 3, name: 'Seetha', username: 'beni' },
-  ]
+  const usersData = []
   const initialFormState = { id: null, name: '', username: '' }
   const [users, setUsers] = useState(usersData)
   const [ currentUser, setCurrentUser ] = useState(initialFormState)
@@ -39,9 +35,16 @@ const User = () => {
     setCurrentUser({ id: user.id, name: user.name, username: user.username })
   }
   return (
-    <div className="background">
+    
     <div className="container">
-      <h1 className="font1">React Application</h1>
+      <div className="row">
+      <h1 className="col-lg-6 col-xs-6 col-sm-6 col-md-6 font ">React Application</h1>
+      <div className="col-lg-2 col-xs-2 col-sm-2 col-md-2"></div>
+      <div className="col-lg-2 col-xs-2 col-sm-2 col-md-2"></div>
+      <div className=" col-lg-2 col-xs-2 col-sm-2 col-md-2 ">
+        <a  href="login"><h5 className="font">Logout</h5></a></div>
+      </div>
+      
       <div className="row">
         <div className="col-lg-6 col-xs-6 col-sm-6 col-md-6">
         {editing ? (
@@ -68,7 +71,7 @@ const User = () => {
         </div>
       </div>
     </div>
-    </div>
+  
   )
 }
 

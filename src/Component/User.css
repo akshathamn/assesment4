@@ -10,6 +10,7 @@
 .font
 {
     font-weight: bold;
+    color:black;
 }
 .font1
 {
@@ -19,11 +20,10 @@ table.PerformanceTable {
     table-layout: fixed;
     width: 500px;
 }
-.background
-{
-   background-color: #9e9e9e5c;
-   height: 560px;
-}
+
 th, td { 
     border-bottom: 1px solid #80808026;
+}
+body{
+    background-color:#e1e7ec !important;
 }

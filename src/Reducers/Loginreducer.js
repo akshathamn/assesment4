@@ -1,15 +1,15 @@
 import * as ActionTypes from '../Action/Type';
-
+import browserhistory from '../Utils/browserHistory';
     const initialState={  
         username:'',
-        password:'',
-        message:''
+        Password:''
+        
       };
       export default(state=initialState,action)=>{
         switch(action.type){
             case  ActionTypes.LOGIN:{
-
-                return{...state,message:'Logged in Successfully'}
+                browserhistory.push("/User");
+                return{...state}
                 
                         break;
             }
@@ -19,5 +19,8 @@ import * as ActionTypes from '../Action/Type';
                          return state;
         }
     }
+
+    
+   
 
     

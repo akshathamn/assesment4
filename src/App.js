@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Login from './Component/Login';
 import Register from './Component/Register';
 import User from './Component/User';
+
 function App() {
   return (
     <div >
